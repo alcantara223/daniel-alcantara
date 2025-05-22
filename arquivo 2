@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meu Site Pessoal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 700px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-bottom: 0.5rem;
+    }
+    p {
+      line-height: 1.5;
+    }
+    .skills {
+      list-style-type: none;
+      padding: 0;
+    }
+    .skills li {
+      background-color: #e0f2e9;
+      display: inline-block;
+      margin: 0.3rem;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-weight: bold;
+      color: #2e7d32;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>João Silva</h1>
+    <p>Desenvolvedor Front-end</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre mim</h2>
+      <p>Sou um desenvolvedor front-end apaixonado por criar interfaces intuitivas e responsivas. Gosto de transformar ideias em experiências digitais simples e eficientes.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>Email: <a href="mailto:joao.silva@email.com">joao.silva@email.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/joaosilva" target="_blank" rel="noopener noreferrer">linkedin.com/in/joaosilva</a></p>
+      <p>GitHub: <a href="https://github.com/joaosilva" target="_blank" rel="noopener noreferrer">github.com/joaosilva</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 João Silva - Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
